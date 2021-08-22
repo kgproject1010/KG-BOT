@@ -1,7 +1,7 @@
 {
-  "name": "KEN-UBOT",
-  "description": "[KEN-UBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERMAIN DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/9cf8933ad10f520fc72e2.jpg",
+  "name": "⚙️𝐊𝐆-𝐔𝐒𝐄𝐑𝐁𝐎𝐓⚙️",
+  "description": "[KG-USERBOT] USERBOT KHUSUS YANG DIBUAT HANYA UNTUK MENGISI KEGABUTAN KALIAN.",
+  "logo": "https://telegra.ph/file/de901eba4b8f4e3438ed2.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/KennedyProject/KEN-UBOT",
-  "telegram": "https://t.me/xgothboi",
-  "success_url": "https://t.me/KennedyProject",
+  "repository": "https://github.com/rakaanjay/KG-BOT",
+  "telegram": "https://t.me/knsgnwn",
+  "success_url": "https://t.me/KGSupportgroup",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -164,7 +164,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "KEN-UBOT",
+      "value": "KG-UBOT",
       "required": false
     },
     "ALIVE_NAME": {
