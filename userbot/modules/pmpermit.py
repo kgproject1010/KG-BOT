@@ -35,7 +35,7 @@ DEF_UNAPPROVED_MSG = (
     f"__Karena {DEFAULTUSER} Sedang Sibuk__ \n"
     "__Jika Anda Melakukan Spamming, Anda Akan Terblokir Otomatis__\n"
     f" **Owner :** {DEFAULTUSER} \n"
-    " **Support KEN-UBOT** ⚡ ")
+    " **Support KG-UBOT** ⚡ ")
 
 # =================================================================
 
