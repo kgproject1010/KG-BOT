@@ -101,7 +101,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/KennedyProject/KEN-UBOT")
+    "https://github.com/rakaanjay/KG-UBOT")
 UPSTREAM_REPO_BRANCH = os.environ.get(
     "UPSTREAM_REPO_BRANCH", "KEN-UBOT")
 
@@ -201,11 +201,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/fa26128e9d48d18263724.png"
+    "ALIVE_LOGO") or "https://telegra.ph/file/de901eba4b8f4e3438ed2.png"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/279f1de82747019cb0b62.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/de901eba4b8f4e3438ed2.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -347,7 +347,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "**𝐊𝐄𝐍-𝐔𝐁𝐎𝐓** `Has Been Activated Master!`")
+    await bot.send_message(BOTLOG_CHATID, "**𝐊𝐆-𝐔𝐁𝐎𝐓** `Has Been Activated Master!`")
     return
 
 with bot:
@@ -449,7 +449,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("ᴛᴜᴛᴏʀɪᴀʟ ᴜsᴇʀʙᴏᴛ​",
-                                       "https://t.me/KennedyProject")],
+                                       "https://t.me/knsgnwn")],
                     ]
                 )
 
@@ -462,11 +462,11 @@ with bot:
                     buttons=[
                         [
                             Button.url("Cʜᴀɴɴᴇʟ Uᴘᴅᴀᴛᴇ​",
-                                       "t.me/KennedyProject"),
+                                       "t.me/rakasupport"),
                             Button.url("Gʀᴏᴜᴘ Sᴜᴘᴘᴏʀᴛ",
-                                       "t.me/kenbotsupport")],
+                                       "t.me/KGSupportgroup")],
                         [Button.url("Dᴇᴠᴇʟᴏᴘᴇʀ​",
-                                    "t.me/xgothboi")],
+                                    "t.me/knsgnwn")],
                     ]
                 )
 
@@ -477,7 +477,7 @@ with bot:
                 await event.message.get_sender()
                 text = (
                     f"**Hello** [{get_display_name(u)}](tg://user?id={u.id}) **Is Its Alive Bot**\n\n"
-                    f"       令 𝐊𝐄𝐍-𝐔𝐁𝐎𝐓 令 \n"
+                    f"       ⚠️ 𝐊𝐆-𝐔𝐁𝐎𝐓 ⚠️ \n"
                     "▰▱▰▱▰▱▰▱▰▱▰▱\n"
                     f"      ⚡ I'ᴍ Aʟɪᴠᴇ​ ⚡ \n"
                     "▰▱▰▱▰▱▰▱▰▱▰▱ \n"
@@ -496,10 +496,10 @@ with bot:
                                               [
                                                   custom.Button.url(
                                                       text="Rᴇᴘᴏ",
-                                                      url="https://github.com/KennedyProject/KEN-UBOT"),
+                                                      url="https://github.com/rakaanjay/KG-BOT"),
                                                   custom.Button.url(
-                                                      text="Lɪsᴇɴsɪ​",
-                                                      url="https://github.com/KennedyProject/KEN-UBOT/blob/KEN-UBOT/LICENSE"
+                                                      text="Owner",
+                                                      url="https://t.me/knsgnwn"
                                                   )
                                               ]
                                           ]
@@ -524,7 +524,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             current_page_number = int(lockpage)
             buttons = paginate_help(current_page_number, plugins, "helpme")
-            text = f"\n**Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ​**\n\n **Mᴀsᴛᴇʀ​** {DEFAULTUSER}\n\n** Bʀᴀɴᴄʜ :** __𝐊𝐄𝐍-𝐔𝐁𝐎𝐓__\n** Vᴇʀsɪ :** `v5.0`\n** Pʟᴜɢɪɴs :** `{len(plugins)}`\n"
+            text = f"\n**Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ​**\n\n **Mᴀsᴛᴇʀ​** {DEFAULTUSER}\n\n** Bʀᴀɴᴄʜ :** __𝐊𝐆-𝐔𝐁𝐎𝐓__\n** Vᴇʀsɪ :** `v5.0`\n** Pʟᴜɢɪɴs :** `{len(plugins)}`\n"
             await event.edit(
                 text,
                 file=kenlogo,
@@ -543,32 +543,32 @@ with bot:
                 result = builder.photo(
                     file=kenlogo,
                     link_preview=False,
-                    text=f"\n**Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ​**\n\n **Mᴀsᴛᴇʀ​** {DEFAULTUSER}\n\n** Bʀᴀɴᴄʜ :** __𝐊𝐄𝐍-𝐔𝐁𝐎𝐓__\n** Vᴇʀsɪ :** `v5.0`\n** Pʟᴜɢɪɴs :** `{len(plugins)}`\n".format(
+                    text=f"\n**Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ​**\n\n **Mᴀsᴛᴇʀ​** {DEFAULTUSER}\n\n** Bʀᴀɴᴄʜ :** __𝐊𝐆-𝐔𝐁𝐎𝐓__\n** Vᴇʀsɪ :** `v5.0`\n** Pʟᴜɢɪɴs :** `{len(plugins)}`\n".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari 𝐊𝐄𝐍-𝐔𝐁𝐎𝐓 ",
+                    "Bantuan Dari 𝐊𝐆-𝐔𝐁𝐎𝐓 ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
                     " Alive\n Check Alive Stats! ",
-                    text=f"""__**The KEN-UBOT**__\n`Pong!!` `{ms}ms`\n**Master :** {DEFAULTUSER} """,
+                    text=f"""__**The KG-UBOT**__\n`Pong!!` `{ms}ms`\n**Master :** {DEFAULTUSER} """,
                     buttons=[
                         [
                             custom.Button.url(
                                 "ʀᴇᴘᴏ​",
-                                "https://github.com/KennedyProject/KEN-UBOT"),
+                                "https://github.com/rakaanjay/KG-BOT"),
                             custom.Button.url(
                                 "ᴄʜᴀɴɴᴇʟ​​",
-                                "t.me/KennedyProject")],
+                                "t.me/rakasupport")],
                         [custom.Button.url(
                             "ᴅᴇᴠ​",
-                            "t.me/xgothboi")]],
+                            "t.me/knsgnwn")]],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)
@@ -604,9 +604,9 @@ with bot:
                     buttons=[
                         [
                             Button.url("Cʜᴀɴɴᴇʟ Uᴘᴅᴀᴛᴇ​",
-                                       "t.me/KennedyProject"),
+                                       "t.me/rakasupport"),
                             Button.url("Gʀᴏᴜᴘ Sᴜᴘᴘᴏʀᴛ",
-                                       "t.me/kenbotsupport")],
+                                       "t.me/KGSupportgroup")],
                         [Button.inline("Open Menu", data="open")],
                         [custom.Button.inline(
                             "Cʟᴏsᴇ", b"close")],
