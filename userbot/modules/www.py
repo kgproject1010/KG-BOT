@@ -78,7 +78,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**╭━━━━━━━━━━━━━━━━━╮** \n"
-                    f"**          ⚡ 𝐍 𝐄 𝐓 𝐖 𝐎 𝐑 𝐊 ⚡** \n"
+                    f"**          ⚠️ 𝐍 𝐄 𝐓 𝐖 𝐎 𝐑 𝐊 ⚠️** \n"
                     f"**   ▰▱▰▱▰▱▰▱▰▱▰▱** \n"
                     f"**        ❉ ꜱɪɢɴᴀʟ  :** `%sms` \n"
                     f"**        ❉ ᴏᴡɴᴇʀ   :** `{ALIVE_NAME}` \n"
@@ -90,17 +90,17 @@ async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("⚡UBOT⚡")
-    await pong.edit("UB⚡OT")
-    await pong.edit("UBO⚡T")
-    await pong.edit("UBOT⚡")
-    await pong.edit("UBO⚡T")
-    await pong.edit("UB⚡OT")
-    await pong.edit("U⚡BOT")
-    await pong.edit("⚡UBOT⚡")
+    await pong.edit("⚠️UBOT⚠️")
+    await pong.edit("UB⚠️OT")
+    await pong.edit("UBO⚠️T")
+    await pong.edit("UBOT⚠️")
+    await pong.edit("UBO⚠️T")
+    await pong.edit("UB⚠️OT")
+    await pong.edit("U⚠️BOT")
+    await pong.edit("⚠️UBOT⚠️")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**⚡{ALIVE_NAME} Bᴏᴛ⚡​**\n"
+    await pong.edit(f"**⚠️{ALIVE_NAME} Bᴏᴛ⚠️​**\n"
                     f"➤ __Signal__    __:__ "
                     f"`%sms` \n"
                     f"➤ __Uptime__ __:__ "
@@ -142,12 +142,12 @@ async def redis(pong):
     await pong.edit("࿘࿘࿘")
     await pong.edit("࿘࿘࿘࿘")
     await pong.edit("**Pong !!**")
-    await pong.edit("⚡")
+    await pong.edit("⚠️")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**🏓 Pong!!** \n"
-                    f"⚡ **Speed !!** "
+                    f"⚠️ **Speed !!** "
                     f"`%sms` \n"
                     f"💡 **Uptime** - "
                     f"`{uptime}` \n" % (duration))
@@ -185,7 +185,7 @@ async def redis(pong):
 @register(outgoing=True, pattern="^.speed$")
 async def speedtst(spd):
     """ For .speed command, use SpeedTest to check server speeds. """
-    await spd.edit("`Menjalankan Tes Kecepatan Jaringan, Mohon Tunggu...⚡`")
+    await spd.edit("`Menjalankan Tes Kecepatan Jaringan, Mohon Tunggu...⚠️`")
     test = Speedtest()
 
     test.get_best_server()
@@ -206,7 +206,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "✧ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "✧ **BOT:**𝐊𝐄𝐍-𝐔𝐁𝐎𝐓")
+                   "✧ **BOT:**𝐊𝐆-𝐔𝐁𝐎𝐓")
 
 
 def speed_convert(size):
