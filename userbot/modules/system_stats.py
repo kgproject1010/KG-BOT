@@ -265,16 +265,16 @@ async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**𝐓𝐇𝐄 𝐊𝐄𝐍 - 𝐔𝐁𝐎𝐓**\n"
+        f"**𝐊𝐆-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 **\n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱ \n"
-        f"➣ 🤴 • `ᴏᴡɴᴇʀ    :`[KEN](t.me/xgothboi) \n"
+        f"➣ 🤴 • `ᴏᴡɴᴇʀ    :`[KG](t.me/knsgnwn) \n"
         f"➣ 🖥️ • `ꜱʏꜱᴛᴇᴍ.   :`Ubuntu 20.10 \n"
         f"➣ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ  :`v.{version.__version__} \n"
         f"➣ 🐍 • `ᴘʏᴛʜᴏɴ.   :`v.{python_version()} \n"
         f"➣ 👾 • `ʙᴏᴛ      :`v.{BOT_VER} \n"
         f"➣ 📂 • `ᴍᴏᴅᴜʟᴇ   :`{len(modules)} \n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱ \n"
-        f"🔧 : [REPO-KEN​](https://github.com/KennedyProject/KEN-UBOT)\n👥 : [KEN-TEAM](t.me/zeusspam)\n👤 : [OWNER](t.me/xgothboi)\n"
+        f"🔧 : [REPO-KG​](https://github.com/rakaanjay/KG-BOT)\n👥 : [KG-TEAM](t.me/KGSupportgroup)\n👤 : [OWNER](t.me/knsgnwn)\n"
     )
     if ALIVE_LOGO:
         try:
@@ -305,7 +305,7 @@ async def redis(alive):
     await alive.edit("**__ALI V E__**")
     await alive.edit("**__ALIV E__**")
     await alive.edit("**__ALIVE__**")
-    await alive.edit("✨")
+    await alive.edit("🧐")
     await asyncio.sleep(3)
     output = (
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
@@ -316,7 +316,7 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `Github   :` [Userbot](https://github.com/KEN-UBOT) \n"
+        f"┣  `Github   :` [Userbot](https://github.com/KG-BOT) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
