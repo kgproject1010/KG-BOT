@@ -27,7 +27,7 @@ for module_name in ALL_MODULES:
 
 
 LOGS.info(
-    f"𝐊𝐄𝐍-𝐔𝐁𝐎𝐓 🔧 V{BOT_VER} [Has Been Activated!]")
+    f"𝐊𝐆-𝐔𝐁𝐎𝐓 🔧 V{BOT_VER} [UDH AKTIF YA!]")
 
 
 if len(argv) not in (1, 3, 4):
