@@ -25,10 +25,13 @@ async def typewriter(typew):
     await typew.edit("**WAR WAR TAI ANJING!!! SOK SOK AN NANTANG WAR, EH KE TRIGGERED MINTA SHARE LOCK. PAS UDAH DI SHARE LOCK NGILANG. MENTAL KEK TAI BHAAAKSSS!!!!**")
 
 
-@register(outgoing=True, pattern='^A(?: |$)(.*)')
+@register(outgoing=True, pattern='^K(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**APAAN SI LU TOLOOLLLLL!!!!**")
+    await typew.edit("╔╗─╔═╗───╔═╗──────╔╗────╔╗─
+║╠╗║╬║╔╦╗║═╣╔═╗╔╦╗║╚╗╔═╗║╚╗
+║═╣╠╗║║║║╠═║║╩╣║╔╝║╬║║╬║║╔╣
+╚╩╝╚═╝╚═╝╚═╝╚═╝╚╝─╚═╝╚═╝╚═╝")
 
 
 @register(outgoing=True, pattern='^.pp(?: |$)(.*)')
@@ -67,8 +70,8 @@ CMD_HELP.update({
 \n↳ : Untuk Memberi salam.\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `G`\
 \n↳ : Ngatain.\
-\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `A`\
-\n↳ : Coba Aja Sendiri.\
+\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `K`\
+\n↳ : Ngenalin Dev Yang Ganteng.\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.pp`\
 \n↳ : Hina Yang Gapake PP.\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `B`\
