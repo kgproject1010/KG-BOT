@@ -17,10 +17,8 @@
 Repo Yang Dibuat Oleh [KG](https://t.me/knsgnwn) Dari beberapa Repo Yang Ada Di Github. 
 
 
-### Generate String Using Replit⤵️
-
-[![KEN-UBOT-STRING](https://replit.com/badge/github/@KennedyProject/KEN-UBOT)](https://replit.com/@KennedyProject/KEN-UBOT-STRING)
-
+### AMBIL STRING DIBAWAH⤵️
+[KLICK DISINI UNTUK STRING](https://replit.com/@kgproject1010/knsgnwn-string?v=1)
 
 ## DEPLOY TO HEROKU <img src="./resources/extras/Kenpurple.gif" width="40px">
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/rakaanjay/KG-BOT/tree/KEN-UBOT"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=flat&logo=heroku" width="250" height="38.60" /></a></p>
