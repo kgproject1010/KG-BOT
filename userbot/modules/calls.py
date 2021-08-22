@@ -39,7 +39,7 @@ async def _(e):
     new_rights = ChatAdminRights(invite_users=True)
     try:
         await e.client(startvc(e.chat_id))
-        await e.edit("`Memulai Obrolan Suara...`")
+        await e.edit("`Gua Buka Nih OSnya Ajg Jangan ONCAM Kalo Bukan Cwe...`")
     except Exception as ex:
         await e.edit(f"`{str(ex)}`")
 
@@ -55,14 +55,14 @@ async def _(e):
     new_rights = ChatAdminRights(invite_users=True)
     try:
         await e.client(stopvc(await get_call(e)))
-        await e.edit("`Obrolan Suara Dimatikan...`")
+        await e.edit("`Obrolan Suara Gua Matiin Dulu Ah tolol...`")
     except Exception as ex:
         await e.edit(f"`{str(ex)}`")
 
 
 @register(outgoing=True, pattern=r"^\.vcinvite", groups_only=True)
 async def _(e):
-    await e.edit("`Mengundang Para Babu Ke Obrolan Suara...`")
+    await e.edit("`Mengundang Para Jagoan Ke Obrolan Suara...`")
     users = []
     z = 0
     async for x in e.client.iter_participants(e.chat_id):
