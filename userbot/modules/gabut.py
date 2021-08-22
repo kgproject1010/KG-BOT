@@ -20,16 +20,16 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.p(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Salam Dulu Biar Sopan...`")
+    await typew.edit("`HALO PARA JAMET`")
     sleep(2)
-    await typew.edit("`السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ`")
+    await typew.edit("`ASSALAMUALAIKUM PARA PENGANGGURAN`")
 # Salam
 
 
 @register(outgoing=True, pattern='^.l(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Kalo Orang Salam Itu Dijawab...`")
+    await typew.edit("`KALO ORANG SALAM ITU DIJAWAB TOLOL...`")
     sleep(2)
     await typew.edit("`وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ`")
 # Menjawab Salam
@@ -58,7 +58,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("✅ `Can Autis`")
     sleep(1)
-    await typew.edit("`⚡ Cuma Ken Yang Paling Waras, Baik Hati, Dan Tidak Sombong :v`")
+    await typew.edit("`⚡ Cuma KG Yang Paling Waras, Baik Hati, Dan Tidak Sombong :v`")
 # King Userbot Support
 
 
@@ -85,14 +85,14 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("✅ `Bra Gaje`")
     sleep(2)
-    await typew.edit("✨ `Cuma Ken Yang Paling Sopan, Baik Hati, Dan Tidak Sombong :v`")
+    await typew.edit("✨ `Cuma KG Yang Paling Sopan, Baik Hati, Dan Tidak Sombong :v`")
 # Luar Angkasa
 
 
 @register(outgoing=True, pattern="^.istigfar(?: |$)(.*)")
 async def perkenalan(event):
     event.pattern_match.group(1)
-    await event.edit(f"`Heh Kamu Gaboleh Begitu...`")
+    await event.edit(f"`LO GABOLEH NGOMONG KASAR TOLOL..`")
     sleep(2)
     await event.edit("`اَسْتَغْفِرُاللهَ الْعَظِيْم`")
 # Istigfar
