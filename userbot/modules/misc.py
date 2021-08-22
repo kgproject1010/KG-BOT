@@ -70,7 +70,7 @@ async def killdabot(event):
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Restarting KG-UBOT...`")
+    await event.edit("`Restarting ⚠️KG-USERBOT⚠️...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
@@ -110,10 +110,10 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**Hey**, I am using **𝐊𝐆-𝐔𝐁𝐎𝐓** \n"
-        "⚙️ **Repo :** [Github](https://github.com/rakaanjay/KG-BOT)\n"
-        "🔱 **Owner :** [KG](t.me/knsgnwn)"\n"
-        "📍 **Group :** [Support](t.me/KGSupportgroup)"\n"
+        "**Hey**, __I am using__  **⚠️𝐊𝐆-𝐔𝐒𝐄𝐑𝐁𝐎𝐓⚠️* \n"
+        "➣ **Repo :** [KG-UBOT](https://github.com/rakaanjay/KG-BOT)\n"
+        "➣ **Owner :** [KG](t.me/knsgnwn)\n"
+        "➣ **License :** [GPL-3.0 License](https://github.com/rakaanjay/KG-BOT/blob/KG-BOT/LICENSE)"
     )
 
 
@@ -261,27 +261,27 @@ async def scam(results, lim):
 
 CMD_HELP.update({
     "random":
-    "Command: `.random <item1> <item2> ... <itemN>`\
+    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.random <item1> <item2> ... <itemN>`\
     \n↳ : Get a random item from the list of items.",
     "sleep":
-    "Command: `.sleep <seconds>`\
+    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sleep <seconds>`\
     \n↳ : Let yours snooze for a few seconds.",
     "shutdown":
-    "Command: `.shutdown`\
+    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.shutdown`\
     \n↳ : Shutdown bot",
     "repo":
-    "Command: `.repo`\
+    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.repo`\
     \n↳ : Github Repo of this bot",
     "readme":
-    "Command `.readme`\
+    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙 `.readme`\
     \n↳ : Provide links to setup the userbot and it's modules.",
     "repeat":
-    "Command: `.repeat <no> <text>`\
+    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.repeat <no> <text>`\
     \n↳ : Repeats the text for a number of times. Don't confuse this with spam tho.",
     "restart":
-    "Command: `.restart`\
+    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.restart`\
     \n↳ : Restarts the bot !!",
     "raw":
-    "Command: `.raw`\
+    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.raw`\
     \n↳ : Get detailed JSON-like formatted data about replied message."
 })
